@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/rice"
+            android:onClick="fragment1"
+            android:backgroundTint="#D1B2FF"
+            android:textColor="#000000"
+            android:text="밥"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/pork"
+            android:onClick="fragment2"
+            android:backgroundTint="#D1B2FF"
+            android:textColor="#000000"
+            android:text="돈가스"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/noodle"
+            android:onClick="fragment3"
+            android:backgroundTint="#D1B2FF"
+            android:textColor="#000000"
+            android:text="라면"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:id="@+id/drink"
+            android:onClick="fragment4"
+            android:backgroundTint="#D1B2FF"
+            android:textColor="#000000"
+            android:text="음료"/>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="466dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/bag"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#D1B2FF"
+            android:text="장바구니"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <ListView
+            android:id="@+id/cartListView"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+</LinearLayout>

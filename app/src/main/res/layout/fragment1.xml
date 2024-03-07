@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment1">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/rice1"
+                        android:backgroundTint="#E8D9FF"
+                        android:onClick="onClick"
+                        android:textColor="#000000"
+                        android:text="매콤제육덮밥" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30sp"
+                        android:text="5500원"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/rice2"
+                        android:backgroundTint="#E8D9FF"
+                        android:onClick="onClick"
+                        android:textColor="#000000"
+                        android:text="목살김치찌개" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30sp"
+                        android:text="5300원"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/rice3"
+                        android:backgroundTint="#E8D9FF"
+                        android:onClick="onClick"
+                        android:textColor="#000000"
+                        android:text="치킨마요덮밥" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30sp"
+                        android:text="5300원"
+                        android:textSize="20sp" />
+
+                </LinearLayout>
+
+            </LinearLayout> <!--첫번째 줄 -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/rice4"
+                        android:backgroundTint="#E8D9FF"
+                        android:onClick="onClick"
+                        android:textColor="#000000"
+                        android:text="목살슬라이스덮밥" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30sp"
+                        android:text="5500원"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/rice5"
+                        android:onClick="onClick"
+                        android:backgroundTint="#E8D9FF"
+                        android:textColor="#000000"
+                        android:text="새우튀김알밥" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30sp"
+                        android:text="5300원"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/rice6"
+                        android:backgroundTint="#E8D9FF"
+                        android:onClick="onClick"
+                        android:textColor="#000000"
+                        android:text="소금구이정식" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30sp"
+                        android:text="5500원"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout> <!--두번째 줄 -->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/rice7"
+                        android:onClick="onClick"
+                        android:backgroundTint="#E8D9FF"
+                        android:textColor="#000000"
+                        android:text="치킨가라아케카레" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30sp"
+                        android:text="5500원"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/rice8"
+                        android:backgroundTint="#E8D9FF"
+                        android:onClick="onClick"
+                        android:textColor="#000000"
+                        android:text="새우튀김카레" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30sp"
+                        android:text="5500원"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10sp"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:id="@+id/rice9"
+                        android:backgroundTint="#E8D9FF"
+                        android:textColor="#000000"
+                        android:onClick="onClick"
+                        android:text="돈가츠카레" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="30sp"
+                        android:text="5500원"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+            </LinearLayout><!--세번째 줄 -->
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

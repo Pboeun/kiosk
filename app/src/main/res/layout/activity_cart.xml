@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- 기존 내용 생략 -->
+
+    <TextView
+        android:id="@+id/orderNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="주문 번호: 0"
+        android:textSize="18sp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp" />
+
+    <!-- 여기에 ListView를 추가합니다 -->
+    <ListView
+        android:id="@+id/cartListView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+
+        <Button
+            android:id="@+id/orderButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:backgroundTint="#D1B2FF"
+            android:text="주문하기"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+</LinearLayout>
